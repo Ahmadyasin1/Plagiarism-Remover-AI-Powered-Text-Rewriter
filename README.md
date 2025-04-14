@@ -91,25 +91,12 @@ If this project helped you or you liked the idea, give it a ⭐ star to support 
 git clone https://github.com/your-username/plagiarism-remover.git
 cd plagiarism-remover
 
-2. Create and Activate Virtual Environment
-bash
-Copy
-Edit
+# Create virtual environment
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-3. Install Dependencies
-bash
-Copy
-Edit
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
 pip install -r requirements.txt
-4. Run the Script or Web App
-Option A: Command Line Interface (CLI)
-bash
-Copy
-Edit
-python main.py
-Option B: Web App (e.g., Streamlit)
-bash
-Copy
-Edit
-streamlit run app.py
+
+# Run the Flask app
+python app.py
